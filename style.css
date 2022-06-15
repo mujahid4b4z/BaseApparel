@@ -6,9 +6,6 @@
     .dfirst,.dsecond,.done,.dcircle,.dbase,.dapparel,.dwere,.dcoming,.dsoon,.dhello,.dtextarea,.dinput,.dthird{
         display: none;
     }
-    .image{
-        width: 360px;
-    }
     .second{
         background-color: hsl(0, 0%, 100%);
         position: relative;padding: 20px 0px 65px 20px;
@@ -21,12 +18,12 @@
     .base{
         color: hsl(0, 6%, 24%);
         position: absolute;padding: 12px 0px 0px 38px;
-        font-family: 'Raleway', sans-serif;font-size: 11px;font-weight: 710;letter-spacing: 3px;
+        font-family: 'Raleway', sans-serif;font-size: 11px;font-weight: 700;letter-spacing: 3px;
     }
     .apparel{
         color: hsl(0, 6%, 24%);
         position: absolute;padding: 24px 0px 0px 38px;
-        font-family: 'Raleway', sans-serif;font-size: 11px;font-weight: 710;letter-spacing: 3px;
+        font-family: 'Raleway', sans-serif;font-size: 11px;font-weight: 700;letter-spacing: 3px;
     }
     .third{
         background: linear-gradient(to top, hsl(0,100%,98%)20%,hsl(0,0%,100%));
@@ -36,32 +33,32 @@
     }
     .were{
         color: hsl(0, 36%, 70%);
-        padding: 60px 0px 0px 104px;
-        font-family: 'Josefin Sans', sans-serif;font-size: 38px;font-weight: 500;letter-spacing: 10px;
+        padding: 60px 0px 0px 100px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 40px;font-weight: 500;letter-spacing: 10px;
     }
     .coming{
         color: hsl(0, 6%, 24%);
-        padding: 0px 0px 0px 72px;
-        font-family: 'Josefin Sans', sans-serif;font-size: 40px;font-weight: 600;letter-spacing: 10px;
+        padding: 0px 0px 0px 70px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 41px;font-weight: 600;letter-spacing: 10px;
     }
     .soon{
         color: hsl(0, 6%, 24%);
-        padding: 0px 0px 0px 108px;
-        font-family: 'Josefin Sans', sans-serif;font-size: 40px;font-weight: 600;letter-spacing: 10px;
+        padding: 0px 0px 0px 104px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 41px;font-weight: 600;letter-spacing: 10px;
     }
     .hello{
         color: hsl(0, 36%, 70%);
-        position: absolute;top: 150px;padding: 50px 10px 0px 40px;
-        font-family: 'Josefin Sans', sans-serif;font-size: 14px;font-weight: 600;line-height: 22px;
+        position: absolute;top: 150px;padding: 52px 10px 0px 42px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 14px;font-weight: 600;line-height: 21px;
     }
     span{
         padding-left: 104px;
     }
     .textarea{
-        margin: 150px 0px 62px 30px;padding: 18px 4px 0px 24px;
+        margin: 138px 0px 62px 30px;padding: 18px 4px 0px 24px;
         border-radius: 32px;
+        width: 290px;
         background: hsl(0, 100%, 98%);border: 2px solid hsl(0, 80%, 86%);
-        width: 280px;
         font-family: 'Josefin Sans', sans-serif;font-size: 14px;font-weight: 600;
     }
     ::placeholder{
@@ -71,7 +68,7 @@
         background: radial-gradient(rgb(255, 125, 125)40%,hsl(0,74%,74%)90%);color: aliceblue;
         border: 2px solid hsl(0,93%,68%);border-radius: 32px;
         width: 70px;height: 50px;
-        position: absolute;top: 328px;left: 272px;
+        position: absolute;top: 321px;left: 284px;
         font-size: 28px;
     }
 }
