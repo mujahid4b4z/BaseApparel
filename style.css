@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (max-width:1023px){
+    .dfirst,.dsecond,.done,.dcircle,.dbase,.dapparel,.dwere,.dcoming,.dsoon,.dhello,.dtextarea,.dinput,.dthird{
+        display: none;
+    }
+    .image{
+        width: 360px;
+    }
+    .second{
+        background-color: hsl(0, 0%, 100%);
+        position: relative;padding: 20px 0px 65px 20px;
+    }
+    .circle{
+        color:rgb(255, 164, 164);
+        position: absolute;padding: 7px 0px 0px 10px;
+        font-family: 'Montserrat', sans-serif;font-weight: 500px;font-size: 28px;
+    }
+    .base{
+        color: hsl(0, 6%, 24%);
+        position: absolute;padding: 12px 0px 0px 38px;
+        font-family: 'Raleway', sans-serif;font-size: 11px;font-weight: 710;letter-spacing: 3px;
+    }
+    .apparel{
+        color: hsl(0, 6%, 24%);
+        position: absolute;padding: 24px 0px 0px 38px;
+        font-family: 'Raleway', sans-serif;font-size: 11px;font-weight: 710;letter-spacing: 3px;
+    }
+    .third{
+        background: linear-gradient(to top, hsl(0,100%,98%)20%,hsl(0,0%,100%));
+    }
+    .fourth{
+        position: relative;padding: 0px 0px 40px 0px;
+    }
+    .were{
+        color: hsl(0, 36%, 70%);
+        padding: 60px 0px 0px 104px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 38px;font-weight: 500;letter-spacing: 10px;
+    }
+    .coming{
+        color: hsl(0, 6%, 24%);
+        padding: 0px 0px 0px 72px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 40px;font-weight: 600;letter-spacing: 10px;
+    }
+    .soon{
+        color: hsl(0, 6%, 24%);
+        padding: 0px 0px 0px 108px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 40px;font-weight: 600;letter-spacing: 10px;
+    }
+    .hello{
+        color: hsl(0, 36%, 70%);
+        position: absolute;top: 150px;padding: 50px 10px 0px 40px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 14px;font-weight: 600;line-height: 22px;
+    }
+    span{
+        padding-left: 104px;
+    }
+    .textarea{
+        margin: 150px 0px 62px 30px;padding: 18px 4px 0px 24px;
+        border-radius: 32px;
+        background: hsl(0, 100%, 98%);border: 2px solid hsl(0, 80%, 86%);
+        width: 280px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 14px;font-weight: 600;
+    }
+    ::placeholder{
+        color: hsl(0, 36%, 70%);
+    }
+    .input{
+        background: radial-gradient(rgb(255, 125, 125)40%,hsl(0,74%,74%)90%);color: aliceblue;
+        border: 2px solid hsl(0,93%,68%);border-radius: 32px;
+        width: 70px;height: 50px;
+        position: absolute;top: 328px;left: 272px;
+        font-size: 28px;
+    }
+}
+@media screen and (min-width:1024px){
+    .first,.second,.circle,.base,.apparel,.image,.third,.fourth,.were,.coming,.soon,.hello,.textarea,.input{
+        display: none;
+    }
+    .dfirst{
+        width: 112.5vw;
+    }
+    .dsecond{
+        display: inline-block;
+        position: relative;
+        background: linear-gradient(to left, hsl(0,100%,98%),hsl(0,0%,100%));
+    }
+    .done{
+        position: absolute;top: 50px;left: 160px;
+    }
+    .dcircle{
+        color:rgb(255, 164, 164);
+        font-family: 'Montserrat', sans-serif;font-size: 36px;font-weight: 500;
+    }
+    .dbase{
+        color: hsl(0, 6%, 24%);
+        position: absolute;top: 4px;left: 32px;
+        font-family: 'Raleway', sans-serif;font-size: 16px;font-weight: 700;letter-spacing: 4px;
+    }
+    .dapparel{
+        color: hsl(0, 6%, 24%);
+        position: absolute;top: 20px;left: 32px;
+        font-family: 'Raleway', sans-serif;font-size: 16px;font-weight: 700;letter-spacing: 4px;
+    }
+    .dwere{
+        color: hsl(0, 36%, 70%);
+        position: absolute;top: 162px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 70px;font-weight: 500;letter-spacing: 10px;
+    }
+    .dcoming{
+        color: hsl(0, 6%, 24%);
+        position: absolute;top: 232px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 70px;font-weight: 600;letter-spacing: 10px;
+    }
+    .dsoon{
+        color: hsl(0, 6%, 24%);
+        position: absolute;top: 302px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 70px;font-weight: 600;letter-spacing: 10px;
+    }
+    .dhello{
+        width: 438px;
+        color: hsl(0, 36%, 70%);
+        position: absolute;top: 410px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 16px;font-weight: 600;line-height: 26px;
+    }
+    .dtextarea{
+        border: 2px solid hsl(0, 80%, 86%);border-radius: 32px;
+        position: absolute;top: 520px;padding: 20px 0px 4px 18px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 14px;font-weight: 600;
+    }
+    ::placeholder{
+        color: hsl(0, 36%, 70%);
+        padding-left: 14px;
+    }
+    .dinput{
+        background: linear-gradient(to left, hsl(0,93%,68%)40%,hsl(0,74%,74%));color: aliceblue;
+        border: 2px solid hsl(0,93%,68%);border-radius: 32px;
+        width: 100px;height: 56px;
+        position: absolute;top: 520px;left: 360px;
+        font-size: 28px;
+    }
+    .dthird{
+        display: inline-block;
+        float: right;
+    }    
+}
+@media screen and (min-width:1440px){
+    .first,.second,.circle,.base,.apparel,.image,.third,.fourth,.were,.coming,.soon,.hello,.textarea,.input{
+        display: none;
+    }
+    .dfirst{
+        width: 100vw;
+    }
+    .dsecond{
+        display: inline-block;
+        position: relative;
+        background: linear-gradient(to left, hsl(0,100%,98%),hsl(0,0%,100%));
+    }
+    .done{
+        position: absolute;top: 50px;left: 160px;
+    }
+    .dcircle{
+        color:rgb(255, 164, 164);
+        font-family: 'Montserrat', sans-serif;font-size: 48px;font-weight: 500;
+    }
+    .dbase{
+        color: hsl(0, 6%, 24%);
+        position: absolute;top: 6px;left: 46px;
+        font-family: 'Raleway', sans-serif;font-size: 20px;font-weight: 700;letter-spacing: 4px;
+    }
+    .dapparel{
+        color: hsl(0, 6%, 24%);
+        position: absolute;top: 26px;left: 46px;
+        font-family: 'Raleway', sans-serif;font-size: 20px;font-weight: 700;letter-spacing: 4px;
+    }
+    .dwere{
+        color: hsl(0, 36%, 70%);
+        position: absolute;top: 176px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 72px;font-weight: 500;letter-spacing: 14px;
+    }
+    .dcoming{
+        color: hsl(0, 6%, 24%);
+        position: absolute;top: 252px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 72px;font-weight: 600;letter-spacing: 14px;
+    }
+    .dsoon{
+        color: hsl(0, 6%, 24%);
+        position: absolute;top: 330px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 72px;font-weight: 600;letter-spacing: 14px;
+    }
+    .dhello{
+        color: hsl(0, 36%, 70%);
+        width: 450px;
+        position: absolute;top: 432px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 16px;font-weight: 600;line-height: 26px;
+    }
+    .dtextarea{
+        border: 2px solid hsl(0, 80%, 86%);border-radius: 32px;
+        position: absolute;top: 550px;padding: 22px 0px 6px 18px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 14px;font-weight: 600;
+    }
+    ::placeholder{
+        color: hsl(0, 36%, 70%);
+        padding-left: 14px;
+        font-size: 16px;
+    }
+    .dinput{
+        background: linear-gradient(to left, hsl(0,93%,68%)40%,hsl(0,74%,74%));color: aliceblue;
+        border: 2px solid hsl(0,93%,68%);border-radius: 32px;
+        width: 100px;height: 60px;
+        position: absolute;top: 550px;left: 360px;
+        font-size: 28px;
+    }
+    .dthird{
+        display: inline-block;
+        float: right;
+    }    
+}
