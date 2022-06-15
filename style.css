@@ -7,26 +7,29 @@
         display: none;
     }
     .first{
-        width: 375px;
+        width: 393px;
+    }
+    .image{
+        width: 393px;
     }
     .second{
         background-color: hsl(0, 0%, 100%);
-        position: relative;padding: 20px 0px 65px 20px;
+        position: relative;padding: 24px 0px 70px 20px;
     }
     .circle{
         color:rgb(255, 164, 164);
         position: absolute;padding: 7px 0px 0px 10px;
-        font-family: 'Montserrat', sans-serif;font-weight: 500px;font-size: 28px;
+        font-family: 'Montserrat', sans-serif;font-weight: 500px;font-size: 30px;
     }
     .base{
         color: hsl(0, 6%, 24%);
         position: absolute;padding: 12px 0px 0px 38px;
-        font-family: 'Raleway', sans-serif;font-size: 11px;font-weight: 700;letter-spacing: 3px;
+        font-family: 'Raleway', sans-serif;font-size: 14px;font-weight: 700;letter-spacing: 3px;
     }
     .apparel{
         color: hsl(0, 6%, 24%);
         position: absolute;padding: 24px 0px 0px 38px;
-        font-family: 'Raleway', sans-serif;font-size: 11px;font-weight: 700;letter-spacing: 3px;
+        font-family: 'Raleway', sans-serif;font-size: 14px;font-weight: 700;letter-spacing: 3px;
     }
     .third{
         background: linear-gradient(to top, hsl(0,100%,98%)20%,hsl(0,0%,100%));
@@ -37,31 +40,31 @@
     .were{
         color: hsl(0, 36%, 70%);
         padding: 60px 0px 0px 100px;
-        font-family: 'Josefin Sans', sans-serif;font-size: 40px;font-weight: 500;letter-spacing: 10px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 42px;font-weight: 500;letter-spacing: 10px;
     }
     .coming{
         color: hsl(0, 6%, 24%);
         padding: 0px 0px 0px 70px;
-        font-family: 'Josefin Sans', sans-serif;font-size: 41px;font-weight: 600;letter-spacing: 10px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 44px;font-weight: 600;letter-spacing: 10px;
     }
     .soon{
         color: hsl(0, 6%, 24%);
         padding: 0px 0px 0px 104px;
-        font-family: 'Josefin Sans', sans-serif;font-size: 41px;font-weight: 600;letter-spacing: 10px;
+        font-family: 'Josefin Sans', sans-serif;font-size: 44px;font-weight: 600;letter-spacing: 10px;
     }
     .hellofellow{
         width: 375px;
     }
     .hello{
         color: hsl(0, 36%, 70%);
-        margin: 0px 22px 0px 50px;position: absolute;top: 200px;
+        margin: 0px 22px 0px 50px;position: absolute;top: 216px;
         font-family: 'Josefin Sans', sans-serif;font-size: 14px;font-weight: 600;line-height: 21px;
     }
     span{
         padding-left: 104px;
     }
     .textarea{
-        margin: 138px 0px 62px 30px;padding: 18px 4px 0px 24px;
+        margin: 148px 0px 62px 30px;padding: 18px 4px 0px 24px;
         border-radius: 32px;
         width: 290px;
         background: hsl(0, 100%, 98%);border: 2px solid hsl(0, 80%, 86%);
@@ -74,7 +77,7 @@
         background: radial-gradient(rgb(255, 125, 125)40%,hsl(0,74%,74%)90%);color: aliceblue;
         border: 2px solid hsl(0,93%,68%);border-radius: 32px;
         width: 70px;height: 50px;
-        position: absolute;top: 321px;left: 284px;
+        position: absolute;top: 338px;left: 284px;
         font-size: 28px;
     }
 }
