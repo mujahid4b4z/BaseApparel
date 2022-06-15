@@ -6,6 +6,9 @@
     .dfirst,.dsecond,.done,.dcircle,.dbase,.dapparel,.dwere,.dcoming,.dsoon,.dhello,.dtextarea,.dinput,.dthird{
         display: none;
     }
+    .first{
+        width: 375px;
+    }
     .second{
         background-color: hsl(0, 0%, 100%);
         position: relative;padding: 20px 0px 65px 20px;
@@ -46,9 +49,12 @@
         padding: 0px 0px 0px 104px;
         font-family: 'Josefin Sans', sans-serif;font-size: 41px;font-weight: 600;letter-spacing: 10px;
     }
+    .hellofellow{
+        width: 375px;
+    }
     .hello{
         color: hsl(0, 36%, 70%);
-        position: absolute;top: 150px;padding: 52px 10px 0px 42px;
+        margin: 0px 22px 0px 50px;position: absolute;top: 200px;
         font-family: 'Josefin Sans', sans-serif;font-size: 14px;font-weight: 600;line-height: 21px;
     }
     span{
